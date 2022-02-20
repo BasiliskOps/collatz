@@ -14,4 +14,5 @@ try:
         x = collatz(int(x))
 
 
-except ValueError:  
+except ValueError:
+    print("User must enter an integer.")  
